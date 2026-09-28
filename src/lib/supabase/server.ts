@@ -24,7 +24,7 @@ export async function createSupabaseServerClient() {
             cookieStore.set(name, value, options);
           });
         } catch {
-          // setAll from Server Components is a no-op when middleware refreshes sessions.
+          // setAll from Server Components is a no-op when proxy refreshes sessions.
         }
       },
     },
