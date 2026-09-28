@@ -21,6 +21,9 @@ Bootstrap Daily BreadBox as a deployable Next.js PWA foundation with Supabase wi
 ## Acceptance
 
 - [x] `npm run build` succeeds
+- [x] `npm run lint` succeeds
+- [x] `npm run dev` — `/` and `/api/health` respond (Supabase optional until `.env.local` is set)
+- [x] No secrets committed — only `.env.example` placeholders; `.env.local` gitignored
 - [ ] Vercel preview connected (manual: import repo, set env vars)
 - [ ] Supabase project created and env vars set in Vercel + local `.env.local`
 
